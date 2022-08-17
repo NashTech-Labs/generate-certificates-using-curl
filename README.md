@@ -8,3 +8,5 @@ This will generate the bearer token which will be furtehr used to generate encod
 This will use the above bearer token and generate the certs in encoded format. </br>
 - run sh retrieve_base64_encoded_certificate.s
 This small script will get encoded certs in json format. </br>
+- run python3 retrieve_decoded_certificate.py
+This python script will decode the base64 encoded certificate, which can be further used as secret.
